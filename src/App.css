@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-image: url('/public/money.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Задаем минимальную высоту, чтобы изображение охватывало весь экран */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.currency-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Белый фон с прозрачностью для лучшей читаемости */
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.converter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.currency-input-container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px; /* отступы между контейнерами */
+}
+
+.currency-input-container h2 {
+  margin-bottom: 10px; /* отступы под заголовком */
+}
+
+.currency-input-container p {
+  margin-top: 10px; /* отступы над текстом курса валют */
+}
